@@ -1,0 +1,64 @@
+.container{
+    text-align: center;
+}
+.container:hover{
+    color: chartreuse;
+}
+.photo-album {
+    justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 250px;
+            height: 200px;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 15px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 250px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .photo-detail h3 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .photo-detail {
+            display: none;
+            position: absolute;
+            width: 250px;
+            top: 0;
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(240, 255, 240, 0.363);
+        }
+
+        .photo-frame:hover .photo {
+            transform: scale(1.5) skew(-30deg);
+            transition: transform 2s ease-in-out;
+        }
+
+        .photo-detail p {
+            color: white;
+        }
+        .footer-title{
+            color: #E02C6D;
+            text-align: center;
+            background-color: #0A0826;
+            padding: 50px;
+            margin-top: 30px;
+        }
+        .footer-title:hover{
+            color: yellow;
+        }
