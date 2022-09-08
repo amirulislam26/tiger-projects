@@ -1,3 +1,6 @@
+body{
+    background-color:beige;
+}
 .container{
     text-align: center;
 }
@@ -19,7 +22,6 @@
             margin: 15px;
             overflow: hidden;
         }
-
         .photo img {
             width: 250px;
             height: 200px;
