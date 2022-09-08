@@ -62,3 +62,6 @@
         .footer-title:hover{
             color: yellow;
         }
+        .name{
+            margin-left: 50px;
+        }
